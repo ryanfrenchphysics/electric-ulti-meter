@@ -1,0 +1,692 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4011 U1
+U 1 1 600DB266
+P 2350 3350
+F 0 "U1" H 2350 3675 50  0000 C CNN
+F 1 "4011" H 2350 3584 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2350 3350 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 2350 3350 50  0001 C CNN
+	1    2350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U1
+U 2 1 6015FCF5
+P 3300 2750
+F 0 "U1" H 3300 3075 50  0000 C CNN
+F 1 "4011" H 3300 2984 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3300 2750 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3300 2750 50  0001 C CNN
+	2    3300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U1
+U 3 1 60163434
+P 3300 3350
+F 0 "U1" H 3300 3675 50  0000 C CNN
+F 1 "4011" H 3300 3584 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3300 3350 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3300 3350 50  0001 C CNN
+	3    3300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U1
+U 4 1 60165EA9
+P 3300 3950
+F 0 "U1" H 3300 4275 50  0000 C CNN
+F 1 "4011" H 3300 4184 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3300 3950 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 3300 3950 50  0001 C CNN
+	4    3300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U1
+U 5 1 6016CD03
+P 4400 6600
+F 0 "U1" H 4630 6646 50  0000 L CNN
+F 1 "4011" H 4630 6555 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4400 6600 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 4400 6600 50  0001 C CNN
+	5    4400 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3350 2800 3350
+Wire Wire Line
+	2800 3350 2800 3250
+Wire Wire Line
+	2800 2650 3000 2650
+Wire Wire Line
+	3000 2850 2800 2850
+Connection ~ 2800 2850
+Wire Wire Line
+	2800 2850 2800 2650
+Wire Wire Line
+	2800 3350 2800 3450
+Wire Wire Line
+	2800 4050 3000 4050
+Connection ~ 2800 3350
+Wire Wire Line
+	3000 3850 2800 3850
+Connection ~ 2800 3850
+Wire Wire Line
+	2800 3850 2800 4050
+Wire Wire Line
+	3000 3450 2800 3450
+Connection ~ 2800 3450
+Wire Wire Line
+	2800 3450 2800 3850
+Wire Wire Line
+	3000 3250 2800 3250
+Connection ~ 2800 3250
+Wire Wire Line
+	2800 3250 2800 2850
+Wire Wire Line
+	3600 3950 3750 3950
+Wire Wire Line
+	3750 3950 3750 3350
+Wire Wire Line
+	3750 2750 3600 2750
+Wire Wire Line
+	3600 3350 3750 3350
+Connection ~ 3750 3350
+Wire Wire Line
+	3750 3350 3750 2750
+$Comp
+L power:GND #PWR0101
+U 1 1 60176C55
+P 4400 7250
+F 0 "#PWR0101" H 4400 7000 50  0001 C CNN
+F 1 "GND" H 4405 7077 50  0000 C CNN
+F 2 "" H 4400 7250 50  0001 C CNN
+F 3 "" H 4400 7250 50  0001 C CNN
+	1    4400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 601775F4
+P 4400 5950
+F 0 "#PWR0102" H 4400 5800 50  0001 C CNN
+F 1 "VCC" H 4417 6123 50  0000 C CNN
+F 2 "" H 4400 5950 50  0001 C CNN
+F 3 "" H 4400 5950 50  0001 C CNN
+	1    4400 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5950 4400 6100
+Wire Wire Line
+	4400 7100 4400 7250
+$Comp
+L 4xxx:4011 U2
+U 1 1 60188B16
+P 4300 3350
+F 0 "U2" H 4300 3675 50  0000 C CNN
+F 1 "4011" H 4300 3584 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4300 3350 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 4300 3350 50  0001 C CNN
+	1    4300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U2
+U 2 1 60188B1C
+P 5200 2750
+F 0 "U2" H 5200 3075 50  0000 C CNN
+F 1 "4011" H 5200 2984 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5200 2750 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5200 2750 50  0001 C CNN
+	2    5200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U2
+U 3 1 60188B22
+P 5200 3350
+F 0 "U2" H 5200 3675 50  0000 C CNN
+F 1 "4011" H 5200 3584 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5200 3350 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5200 3350 50  0001 C CNN
+	3    5200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4011 U2
+U 4 1 60188B28
+P 5200 3950
+F 0 "U2" H 5200 4275 50  0000 C CNN
+F 1 "4011" H 5200 4184 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5200 3950 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5200 3950 50  0001 C CNN
+	4    5200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3350 4700 3350
+Wire Wire Line
+	4700 3350 4700 3250
+Wire Wire Line
+	4700 2650 4900 2650
+Wire Wire Line
+	4900 2850 4700 2850
+Connection ~ 4700 2850
+Wire Wire Line
+	4700 2850 4700 2650
+Wire Wire Line
+	4700 3350 4700 3450
+Wire Wire Line
+	4700 4050 4900 4050
+Connection ~ 4700 3350
+Wire Wire Line
+	4900 3850 4700 3850
+Connection ~ 4700 3850
+Wire Wire Line
+	4700 3850 4700 4050
+Wire Wire Line
+	4900 3450 4700 3450
+Connection ~ 4700 3450
+Wire Wire Line
+	4700 3450 4700 3850
+Wire Wire Line
+	4900 3250 4700 3250
+Connection ~ 4700 3250
+Wire Wire Line
+	4700 3250 4700 2850
+Wire Wire Line
+	5500 3950 5700 3950
+Wire Wire Line
+	5700 3950 5700 3350
+Wire Wire Line
+	5700 2750 5500 2750
+Wire Wire Line
+	5500 3350 5700 3350
+Connection ~ 5700 3350
+Wire Wire Line
+	5700 3350 5700 2750
+$Comp
+L Device:Antenna AE1
+U 1 1 601897B5
+P 1150 3350
+F 0 "AE1" V 1367 3293 50  0000 C CNN
+F 1 "Antenna" V 1276 3293 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1150 3350 50  0001 C CNN
+F 3 "~" H 1150 3350 50  0001 C CNN
+	1    1150 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 3350 1800 3250
+Wire Wire Line
+	1800 3250 1900 3250
+Wire Wire Line
+	1800 3350 1800 3450
+Wire Wire Line
+	1800 3450 1950 3450
+Connection ~ 1800 3350
+$Comp
+L power:GND #PWR0103
+U 1 1 6018EBD1
+P 1950 3900
+F 0 "#PWR0103" H 1950 3650 50  0001 C CNN
+F 1 "GND" H 1955 3727 50  0000 C CNN
+F 2 "" H 1950 3900 50  0001 C CNN
+F 3 "" H 1950 3900 50  0001 C CNN
+	1    1950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 6018FD97
+P 1950 3700
+F 0 "D1" V 1904 3779 50  0000 L CNN
+F 1 "1N4148" V 1995 3779 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1950 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 3700 50  0001 C CNN
+	1    1950 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 3550 1950 3450
+Wire Wire Line
+	1950 3850 1950 3900
+Wire Wire Line
+	3750 3350 3900 3350
+Wire Wire Line
+	3900 3350 3900 3250
+Wire Wire Line
+	3900 3250 3950 3250
+Wire Wire Line
+	4000 3450 3900 3450
+Wire Wire Line
+	3900 3450 3900 3350
+Connection ~ 3900 3350
+$Comp
+L 4xxx:4011 U2
+U 5 1 6019C1C8
+P 5200 6600
+F 0 "U2" H 5430 6646 50  0000 L CNN
+F 1 "4011" H 5430 6555 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5200 6600 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5200 6600 50  0001 C CNN
+	5    5200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6019C1CE
+P 5200 7250
+F 0 "#PWR0104" H 5200 7000 50  0001 C CNN
+F 1 "GND" H 5205 7077 50  0000 C CNN
+F 2 "" H 5200 7250 50  0001 C CNN
+F 3 "" H 5200 7250 50  0001 C CNN
+	1    5200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 6019C1D4
+P 5200 5950
+F 0 "#PWR0105" H 5200 5800 50  0001 C CNN
+F 1 "VCC" H 5217 6123 50  0000 C CNN
+F 2 "" H 5200 5950 50  0001 C CNN
+F 3 "" H 5200 5950 50  0001 C CNN
+	1    5200 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5950 5200 6050
+Wire Wire Line
+	5200 7100 5200 7150
+$Comp
+L Diode:1N4148 D2
+U 1 1 6019CD5D
+P 6100 3350
+F 0 "D2" H 6100 3134 50  0000 C CNN
+F 1 "1N4148" H 6100 3225 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6100 3175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 3350 50  0001 C CNN
+	1    6100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 3350 5900 3350
+$Comp
+L Device:CP1 C1
+U 1 1 6019FE4F
+P 6400 3600
+F 0 "C1" H 6515 3646 50  0000 L CNN
+F 1 "470nF" H 6515 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6400 3600 50  0001 C CNN
+F 3 "~" H 6400 3600 50  0001 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 601A0A67
+P 6750 3350
+F 0 "R1" V 6545 3350 50  0000 C CNN
+F 1 "10k" V 6636 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6790 3340 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 3350 6400 3350
+Wire Wire Line
+	6400 3350 6400 3450
+Wire Wire Line
+	6400 3750 6400 3900
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 601A686F
+P 7200 3350
+F 0 "Q1" H 7390 3396 50  0000 L CNN
+F 1 "2N3904" H 7390 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 3275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7200 3350 50  0001 L CNN
+	1    7200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3350 7000 3350
+$Comp
+L Device:R_US R2
+U 1 1 601A85E0
+P 7300 2800
+F 0 "R2" H 7368 2846 50  0000 L CNN
+F 1 "10k" H 7368 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7340 2790 50  0001 C CNN
+F 3 "~" H 7300 2800 50  0001 C CNN
+	1    7300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2950 7300 3050
+Connection ~ 1950 3450
+Wire Wire Line
+	1950 3450 2050 3450
+Connection ~ 6400 3350
+Wire Wire Line
+	6400 3350 6600 3350
+$Comp
+L power:GND #PWR0106
+U 1 1 601FB7D1
+P 7300 4100
+F 0 "#PWR0106" H 7300 3850 50  0001 C CNN
+F 1 "GND" H 7305 3927 50  0000 C CNN
+F 2 "" H 7300 4100 50  0001 C CNN
+F 3 "" H 7300 4100 50  0001 C CNN
+	1    7300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3550 7300 3900
+$Comp
+L power:VCC #PWR0107
+U 1 1 60200FBE
+P 7300 2500
+F 0 "#PWR0107" H 7300 2350 50  0001 C CNN
+F 1 "VCC" H 7317 2673 50  0000 C CNN
+F 2 "" H 7300 2500 50  0001 C CNN
+F 3 "" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2500 7300 2650
+$Comp
+L 74xGxx:74LVC1GU04DRL U3
+U 1 1 602038BE
+P 8050 3050
+F 0 "U3" H 8250 3300 50  0000 L CNN
+F 1 "74LVC" H 8250 3200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-553" H 8050 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf" H 7975 3050 50  0001 C CNN
+	1    8050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3050 7300 3050
+Connection ~ 7300 3050
+Wire Wire Line
+	7300 3050 7300 3150
+$Comp
+L power:VCC #PWR0108
+U 1 1 602056C4
+P 8050 2700
+F 0 "#PWR0108" H 8050 2550 50  0001 C CNN
+F 1 "VCC" H 8067 2873 50  0000 C CNN
+F 2 "" H 8050 2700 50  0001 C CNN
+F 3 "" H 8050 2700 50  0001 C CNN
+	1    8050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2700 8050 2850
+$Comp
+L Device:R_US R3
+U 1 1 6020B14D
+P 8550 3350
+F 0 "R3" H 8482 3304 50  0000 R CNN
+F 1 "10" H 8482 3395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8590 3340 50  0001 C CNN
+F 3 "~" H 8550 3350 50  0001 C CNN
+	1    8550 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 3050 8550 3050
+$Comp
+L Device:LED D3
+U 1 1 60211312
+P 8550 3800
+F 0 "D3" V 8589 3682 50  0000 R CNN
+F 1 "XPEBPR-L1" V 8498 3682 50  0000 R CNN
+F 2 "XPEBPR:XPEBPR" H 8550 3800 50  0001 C CNN
+F 3 "~" H 8550 3800 50  0001 C CNN
+	1    8550 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3500 8550 3650
+$Comp
+L power:GND #PWR0109
+U 1 1 602136C1
+P 8550 4150
+F 0 "#PWR0109" H 8550 3900 50  0001 C CNN
+F 1 "GND" H 8555 3977 50  0000 C CNN
+F 2 "" H 8550 4150 50  0001 C CNN
+F 3 "" H 8550 4150 50  0001 C CNN
+	1    8550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3950 8550 4050
+$Comp
+L Device:Buzzer BZ1
+U 1 1 60215F70
+P 9600 3150
+F 0 "BZ1" H 9752 3179 50  0000 L CNN
+F 1 "AI-12230-TWT" H 9752 3088 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 9575 3250 50  0001 C CNN
+F 3 "~" V 9575 3250 50  0001 C CNN
+	1    9600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3050 8550 3050
+Connection ~ 8550 3050
+Wire Wire Line
+	8550 3050 8550 3200
+$Comp
+L power:GND #PWR0110
+U 1 1 6021B85B
+P 9400 3450
+F 0 "#PWR0110" H 9400 3200 50  0001 C CNN
+F 1 "GND" H 9405 3277 50  0000 C CNN
+F 2 "" H 9400 3450 50  0001 C CNN
+F 3 "" H 9400 3450 50  0001 C CNN
+	1    9400 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3450 9400 3250
+Wire Wire Line
+	9400 3250 9500 3250
+Wire Wire Line
+	6400 3900 7300 3900
+Connection ~ 7300 3900
+Wire Wire Line
+	7300 3900 7300 4100
+Wire Wire Line
+	8050 4050 8550 4050
+Wire Wire Line
+	8050 3250 8050 4050
+Connection ~ 8550 4050
+Wire Wire Line
+	8550 4050 8550 4150
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60238367
+P 1900 2600
+F 0 "TP1" H 1950 2800 50  0000 L CNN
+F 1 "TestPoint" H 1950 2900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2100 2600 50  0001 C CNN
+F 3 "~" H 2100 2600 50  0001 C CNN
+	1    1900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2600 1900 3250
+Connection ~ 1900 3250
+Wire Wire Line
+	1900 3250 2050 3250
+$Comp
+L Connector:TestPoint TP2
+U 1 1 602ABF7F
+P 2650 2600
+F 0 "TP2" H 2700 2800 50  0000 L CNN
+F 1 "TestPoint" H 2700 2900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2850 2600 50  0001 C CNN
+F 3 "~" H 2850 2600 50  0001 C CNN
+	1    2650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2600 2650 3350
+Connection ~ 2650 3350
+$Comp
+L Connector:TestPoint TP5
+U 1 1 60302B2F
+P 3950 2600
+F 0 "TP5" H 4000 2800 50  0000 L CNN
+F 1 "TestPoint" H 4000 2900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4150 2600 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 60308EF8
+P 5900 2550
+F 0 "TP6" H 5950 2750 50  0000 L CNN
+F 1 "TestPoint" H 5950 2850 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6100 2550 50  0001 C CNN
+F 3 "~" H 6100 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2600 3950 3250
+Connection ~ 3950 3250
+Wire Wire Line
+	3950 3250 4000 3250
+Wire Wire Line
+	5900 2550 5900 3350
+Connection ~ 5900 3350
+Wire Wire Line
+	5900 3350 5950 3350
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60326096
+P 5900 5850
+F 0 "TP3" H 5950 6050 50  0000 L CNN
+F 1 "TestPoint" H 5950 6150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6100 5850 50  0001 C CNN
+F 3 "~" H 6100 5850 50  0001 C CNN
+	1    5900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 60327FFD
+P 5900 6950
+F 0 "TP4" H 5950 7150 50  0000 L CNN
+F 1 "TestPoint" H 5950 7250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6100 6950 50  0001 C CNN
+F 3 "~" H 6100 6950 50  0001 C CNN
+	1    5900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5850 5900 6050
+Wire Wire Line
+	5900 6050 5200 6050
+Connection ~ 5200 6050
+Wire Wire Line
+	5200 6050 5200 6100
+Wire Wire Line
+	5900 6950 5900 7150
+Wire Wire Line
+	5900 7150 5200 7150
+Connection ~ 5200 7150
+Wire Wire Line
+	5200 7150 5200 7250
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 601CF608
+P 850 7150
+F 0 "H1" H 950 7196 50  0000 L CNN
+F 1 "MountingHole" H 950 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 850 7150 50  0001 C CNN
+F 3 "~" H 850 7150 50  0001 C CNN
+	1    850  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 601D38C8
+P 850 7500
+F 0 "H2" H 950 7546 50  0000 L CNN
+F 1 "MountingHole" H 950 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 850 7500 50  0001 C CNN
+F 3 "~" H 850 7500 50  0001 C CNN
+	1    850  7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3350 1800 3350
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60256AA2
+P 2750 6250
+F 0 "J1" H 2830 6242 50  0000 L CNN
+F 1 "Conn_01x02" H 2830 6151 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 2750 6250 50  0001 C CNN
+F 3 "~" H 2750 6250 50  0001 C CNN
+	1    2750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 60262D60
+P 2450 6000
+F 0 "#PWR0111" H 2450 5850 50  0001 C CNN
+F 1 "VCC" H 2467 6173 50  0000 C CNN
+F 2 "" H 2450 6000 50  0001 C CNN
+F 3 "" H 2450 6000 50  0001 C CNN
+	1    2450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 6026E3FB
+P 2450 6550
+F 0 "#PWR0112" H 2450 6300 50  0001 C CNN
+F 1 "GND" H 2455 6377 50  0000 C CNN
+F 2 "" H 2450 6550 50  0001 C CNN
+F 3 "" H 2450 6550 50  0001 C CNN
+	1    2450 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6350 2450 6350
+Wire Wire Line
+	2450 6350 2450 6550
+Wire Wire Line
+	2550 6250 2450 6250
+Wire Wire Line
+	2450 6000 2450 6250
+$EndSCHEMATC
