@@ -273,8 +273,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 3350 3900 3250
 Wire Wire Line
-	3900 3250 3950 3250
-Wire Wire Line
 	4000 3450 3900 3450
 Wire Wire Line
 	3900 3450 3900 3350
@@ -327,8 +325,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 
 	1    6100 3350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5700 3350 5900 3350
 $Comp
 L Device:CP1 C1
 U 1 1 6019FE4F
@@ -543,52 +539,6 @@ Connection ~ 1900 3250
 Wire Wire Line
 	1900 3250 2050 3250
 $Comp
-L Connector:TestPoint TP2
-U 1 1 602ABF7F
-P 2650 2600
-F 0 "TP2" H 2700 2800 50  0000 L CNN
-F 1 "TestPoint" H 2700 2900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2850 2600 50  0001 C CNN
-F 3 "~" H 2850 2600 50  0001 C CNN
-	1    2650 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 2600 2650 3350
-Connection ~ 2650 3350
-$Comp
-L Connector:TestPoint TP5
-U 1 1 60302B2F
-P 3950 2600
-F 0 "TP5" H 4000 2800 50  0000 L CNN
-F 1 "TestPoint" H 4000 2900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4150 2600 50  0001 C CNN
-F 3 "~" H 4150 2600 50  0001 C CNN
-	1    3950 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 60308EF8
-P 5900 2550
-F 0 "TP6" H 5950 2750 50  0000 L CNN
-F 1 "TestPoint" H 5950 2850 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6100 2550 50  0001 C CNN
-F 3 "~" H 6100 2550 50  0001 C CNN
-	1    5900 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2600 3950 3250
-Connection ~ 3950 3250
-Wire Wire Line
-	3950 3250 4000 3250
-Wire Wire Line
-	5900 2550 5900 3350
-Connection ~ 5900 3350
-Wire Wire Line
-	5900 3350 5950 3350
-$Comp
 L Connector:TestPoint TP3
 U 1 1 60326096
 P 5900 5850
@@ -689,4 +639,8 @@ Wire Wire Line
 	2550 6250 2450 6250
 Wire Wire Line
 	2450 6000 2450 6250
+Wire Wire Line
+	3900 3250 4000 3250
+Wire Wire Line
+	5700 3350 5950 3350
 $EndSCHEMATC

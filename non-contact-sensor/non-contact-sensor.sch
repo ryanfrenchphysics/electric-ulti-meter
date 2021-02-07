@@ -259,7 +259,7 @@ U 1 1 6018FD97
 P 1950 3700
 F 0 "D1" V 1904 3779 50  0000 L CNN
 F 1 "1N4148" V 1995 3779 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 1950 3525 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 1950 3525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 3700 50  0001 C CNN
 	1    1950 3700
 	0    1    1    0   
@@ -320,7 +320,7 @@ U 1 1 6019CD5D
 P 6100 3350
 F 0 "D2" H 6100 3134 50  0000 C CNN
 F 1 "1N4148" H 6100 3225 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 6100 3175 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 6100 3175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 3350 50  0001 C CNN
 	1    6100 3350
 	-1   0    0    1   
